@@ -1,5 +1,7 @@
 package step3_01.arrayAdvance;
 
+import java.util.Scanner;
+
 /*
  * 
  * # 최대값 구하기[3단계]
@@ -23,7 +25,11 @@ public class ArrayEx25_문제 {
 
 	public static void main(String[] args) {
 		
+		Scanner scan = new Scanner(System.in);
 		int[] arr = {11, 87, 42, 100, 24};
-	
+		int max = 0;
+		
+		
+		
 	}
 }
