@@ -1,6 +1,5 @@
 package step3_01.arrayAdvance;
 
-import java.util.Random;
 
 /* 
  * # 1 to 50[3단계] : 1 to 18
@@ -13,7 +12,7 @@ import java.util.Random;
  */
 
 
-public class ArrayEx26_문제 {
+public class ArrayEx26_풀이 {
 
 	public static void main(String[] args) {
 	
@@ -21,19 +20,6 @@ public class ArrayEx26_문제 {
 		
 		int[] front = new int[SIZE];
 		int[] back  = new int[SIZE];
-		
-		int i = 1;
-		Random ran = new Random();
-		
-		int ranNum = ran.nextInt(SIZE);
-		
-		while (true) {
-			
-			System.out.println("i[" + ranNum + "]");
-			
-			
-			
-		}
 		
 	}
 	
