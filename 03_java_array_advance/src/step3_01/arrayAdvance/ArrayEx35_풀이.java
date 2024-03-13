@@ -20,7 +20,7 @@ import java.util.Scanner;
 
 
 
-public class ArrayEx35_풀이하기 {
+public class ArrayEx35_풀이 {
 
 	public static void main(String[] args) {
 		
@@ -51,9 +51,19 @@ public class ArrayEx35_풀이하기 {
 				
 				System.out.print("[추가] 성적입력: ");
 				int inputScore = scan.nextInt();
+
+				if (elementCnt == 0) {
+					score = new int[elementCnt + 1];
+				}
 				
-				score[0] = inputScore;
-				elementCnt++;
+				else if (elementCnt > 0) {
+					int[] temp = score;
+					score = new int[elementCnt + 1];
+					
+					for (int i = 0; i < temp.length; i++) {
+						
+					}
+				}
 				
 			}
 			
